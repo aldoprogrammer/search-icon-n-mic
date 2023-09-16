@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>Apasih</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <style>
+        body {
+            background: #085f63;
+        }
+        .container {
+            top: 50%;
+            left: 50%;
+            transform:translate(-50%, -50%);
+            position: absolute;
+        }
+        .search-box {
+            border-radius: 50px;
+            background: white;
+            border: 2px solid #76b39d;
+        }
+        form {
+            margin: 0;
+        }
+        input{
+            border: none;
+            margin: 10px 5px 10px 0;
+            font-size: 20px;
+            outline: none;
+        }
+        i{
+            font-size: 20px;
+            margin: 0px 10px;
+            color: #085f63;
+        }
+        i:hover {
+            cursor: pointer;
+        }
+        button {
+            background: transparent;
+            border: none;
+        }
+     </style>
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <form>
+                <button type=submit><i class="fa fa-microphone" aria-hidden="true"></i></button>
+                <input type="text" placeholder="search here ..."/>
+                <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
